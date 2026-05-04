@@ -45,9 +45,6 @@ API
  ├── Controllers
  ├── Configurations
 
- Docs
- ├── BDD
- ├── Event Storming
 ```
 
 ---
