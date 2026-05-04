@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAPCloudGames", "FIAPCloudGames\FIAPCloudGames.csproj", "{EB46A1DB-FB66-4969-8DA1-2C651CD44D8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{3A322673-D6B9-4141-B207-04E490EE8E3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A0B76D50-9E5D-4B0F-9570-96EBC03DD6EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3755EE37-8AC4-48D6-8216-09EFEE38F4FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A1DA2CB5-6BE2-4A19-90EB-AF09AD1C1C44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAPCloudGames.Tests", "..\tests\FIAPCloudGames.Tests\FIAPCloudGames.Tests.csproj", "{F55D57DD-C341-4231-8BCB-96798ED98DA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{BAF476C3-DECB-4370-828F-910353F0A026}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fase 1", "Fase 1", "{F8BF389B-2E7F-4F67-8798-C2F27FCB2B20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Event Storming", "Event Storming", "{64EF1F5E-25B3-4A4E-AC4F-F76E012F9333}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\Fase 1\Event Storming\FiapCloudGames Fase 1 - Andamento.jpg = ..\docs\Fase 1\Event Storming\FiapCloudGames Fase 1 - Andamento.jpg
+		..\docs\Fase 1\Event Storming\FiapCloudGames Fase 1 - Completo.jpg = ..\docs\Fase 1\Event Storming\FiapCloudGames Fase 1 - Completo.jpg
+		..\docs\Fase 1\Event Storming\FiapCloudGames Fase 1 - Final.jpg = ..\docs\Fase 1\Event Storming\FiapCloudGames Fase 1 - Final.jpg
+		..\docs\Fase 1\Event Storming\FiapCloudGames Fase 1.rtb = ..\docs\Fase 1\Event Storming\FiapCloudGames Fase 1.rtb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BDD", "BDD", "{B38A8BD3-711F-4803-8858-4EAFB157DDE6}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\Fase 1\BDD\Fiap Cloud Games Fase 1 - BDD.pdf = ..\docs\Fase 1\BDD\Fiap Cloud Games Fase 1 - BDD.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB46A1DB-FB66-4969-8DA1-2C651CD44D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB46A1DB-FB66-4969-8DA1-2C651CD44D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB46A1DB-FB66-4969-8DA1-2C651CD44D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB46A1DB-FB66-4969-8DA1-2C651CD44D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A322673-D6B9-4141-B207-04E490EE8E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A322673-D6B9-4141-B207-04E490EE8E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A322673-D6B9-4141-B207-04E490EE8E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A322673-D6B9-4141-B207-04E490EE8E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B76D50-9E5D-4B0F-9570-96EBC03DD6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B76D50-9E5D-4B0F-9570-96EBC03DD6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B76D50-9E5D-4B0F-9570-96EBC03DD6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B76D50-9E5D-4B0F-9570-96EBC03DD6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55D57DD-C341-4231-8BCB-96798ED98DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55D57DD-C341-4231-8BCB-96798ED98DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55D57DD-C341-4231-8BCB-96798ED98DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55D57DD-C341-4231-8BCB-96798ED98DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB46A1DB-FB66-4969-8DA1-2C651CD44D8D} = {3755EE37-8AC4-48D6-8216-09EFEE38F4FD}
+		{3A322673-D6B9-4141-B207-04E490EE8E3E} = {3755EE37-8AC4-48D6-8216-09EFEE38F4FD}
+		{A0B76D50-9E5D-4B0F-9570-96EBC03DD6EB} = {3755EE37-8AC4-48D6-8216-09EFEE38F4FD}
+		{F55D57DD-C341-4231-8BCB-96798ED98DA3} = {A1DA2CB5-6BE2-4A19-90EB-AF09AD1C1C44}
+		{F8BF389B-2E7F-4F67-8798-C2F27FCB2B20} = {BAF476C3-DECB-4370-828F-910353F0A026}
+		{64EF1F5E-25B3-4A4E-AC4F-F76E012F9333} = {F8BF389B-2E7F-4F67-8798-C2F27FCB2B20}
+		{B38A8BD3-711F-4803-8858-4EAFB157DDE6} = {F8BF389B-2E7F-4F67-8798-C2F27FCB2B20}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8EE48E3-824C-457A-AE94-50725A26736B}
+	EndGlobalSection
+EndGlobal
