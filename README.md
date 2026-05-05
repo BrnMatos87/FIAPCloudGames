@@ -3,7 +3,7 @@
 =======
 # 🎮 FIAPCloudGames API
 
-API REST desenvolvida em **.NET 8** para estruturar a FIAP Cloud Gmes (FGC). Contanto com o cadstro de usuários e biblioteca de jogos 
+API REST desenvolvida em **.NET 8** para estruturar a FIAP Cloud Gmes (FGC). Contanto com o cadastro de usuários e biblioteca de jogos 
 adquiridos. Aplicando boas práticas de arquitetura, segurança e observabilidade.
  
 ---
